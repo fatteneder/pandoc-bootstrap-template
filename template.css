@@ -3049,3 +3049,27 @@ h4:hover a { color: #333; } h5:hover a { color: #333; } h6:hover a { color: #333
 .toc ul > li > a:focus { text-decoration: none; background-color: #eeeeee; }
 .toc ul { margin-bottom: 0; }
 .toc ul > li > a, .toc ul > li > a { padding: 3px 15px; }
+
+
+table {
+    width: 100%;
+    margin-bottom: 2em;
+    border-bottom: 1px solid #ddd;
+    border-right: 1px solid #ddd;
+    border-spacing: 0;
+    border-collapse: collapse;
+}
+
+table th {
+    padding: .2em 1em;
+    background-color: #eee;
+    border-top: 1px solid #ddd;
+    border-left: 1px solid #ddd;
+}
+
+table td {
+    padding: .2em 1em;
+    border-top: 1px solid #ddd;
+    border-left: 1px solid #ddd;
+    vertical-align: top;
+}
